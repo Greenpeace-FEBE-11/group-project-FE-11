@@ -68,6 +68,47 @@ body{
     font-size: 20px;
 }
 
+@media screen and (min-width:200px) {
+    #quotes{
+        font-size: 12px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:700px) {
+    #quotes{
+        font-size: 16px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:990px) {
+    #quotes{
+        font-size: 18px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:991px) {
+    #quotes{
+        font-size: 20px;
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
 #quotes2{
     text-align: center;
     padding-top: 2rem;
@@ -93,6 +134,13 @@ body{
     justify-content: center;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 900px){
+    .flip-box-back, .flip-box-front{
+        max-width: 350px;
+        align-items: center;
+    }
 }
 
 .flip-box-front{
@@ -169,10 +217,31 @@ body{
     @media only screen and (max-width: 768px) {
         /* For mobile phones: */
         #gambar-pengendalian{
-            width: 20em;
+            width: 30em;
         }
         #judul2{
-            font-size: 40px;
+            font-size: 30px;
+            margin-top: -40px;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        /* For mobile phones: */
+        #gambar-pengendalian{
+            width: 30em;
+        }
+        #judul2{
+            font-size: 30px;
+            margin-top: -40px;
+        }
+    }
+
+    @media only screen and (min-width: 900px) {
+        /* For mobile phones: */
+        #gambar-pengendalian{
+            width: 35em;
+        }
+        #judul2{
+            font-size: 35px;
             margin-top: -40px;
         }
     }
