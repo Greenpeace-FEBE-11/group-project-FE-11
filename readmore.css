@@ -26,6 +26,24 @@ body{
     padding-left: 2rem;
 }
 
+@media screen and (max-width: 768px){
+    #ket-gambar{
+        font-size: 45px;
+    }
+    #gambar, #gambar2{
+        width: auto;
+    }
+    #judul{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #ket-gambar{
+        font-size: 35px;
+    }
+}
+
 .col{
     border: 2px solid rgba(255, 255, 255, 0);
 }
@@ -126,6 +144,13 @@ body{
 #judul{
     font-size: 52px;
     font-weight: bolder;
+    text-align: center;
+}
+
+@media screen and(max-width: 768px){
+    #judul{
+        font-size: 30px;
+    }
 }
 
 .col p{
@@ -144,7 +169,11 @@ body{
     @media only screen and (max-width: 768px) {
         /* For mobile phones: */
         #gambar-pengendalian{
-            width: 10em;
+            width: 20em;
+        }
+        #judul2{
+            font-size: 40px;
+            margin-top: -40px;
         }
     }
 
@@ -194,7 +223,7 @@ body{
 #menjaga-hutan2{
     padding-left: 4rem;
     color: #FDE3B3;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -202,7 +231,7 @@ body{
     padding-left: 0rem;
     color: white;
     margin-right: 3rem;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 4rem;
     text-align: left;
 }
