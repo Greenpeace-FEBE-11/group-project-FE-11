@@ -10,7 +10,7 @@ async function checkAkun(email,password){
 
     let dataAkun = await data.json();
     let hasil = false;
-    
+
     dataAkun.forEach(element => {
         if(element.email == email && element.password == password){
             hasil = true;
@@ -18,9 +18,11 @@ async function checkAkun(email,password){
     });
 
     if(hasil){
-        console.log("berhasil login");
+        window.location.href = "register.html";
+        // console.log("berhasil login");
     }else{
-        console.log("email/password salah!");
+        alert("Email atau password anda salah!");
+        // console.log("email atau password anda salah!");
     }
     // console.log(dataAkun)
 }
@@ -30,3 +32,4 @@ document.querySelector("button").addEventListener("click", async function(e){
     checkAkun(document.getElementById("email-login").value,document.getElementById("password-login").value)
 })
 // checkAkun()  
+
