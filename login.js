@@ -4,21 +4,38 @@
 //     let passLogin = document.getElementById('password-login').value 
 //     event.preventDefault()
 // })
+document.addEventListener("DOMContentLoaded",function(e){
+    let dataStorage = JSON.parse(localStorage.getItem("account"));
+
+    if(dataStorage != null){
+        window.location.href = "index.html";
+    }
+})
+
 
 async function checkAkun(email,password){
     let data = await fetch('https://63528ae6a9f3f34c37409536.mockapi.io/logres');
 
     let dataAkun = await data.json();
+    let dataEmail = {
+        id:0,
+        email:""
+    }
     let hasil = false;
 
     dataAkun.forEach(element => {
         if(element.email == email && element.password == password){
             hasil = true;
+            dataEmail.id = element.id;
+            dataEmail.email = element.email;
         }
     });
 
     if(hasil){
-        window.location.href = "register.html";
+        
+        localStorage.setItem("account",JSON.stringify(dataEmail));
+
+        window.location.href = "index.html";
         // console.log("berhasil login");
     }else{
         alert("Email atau password anda salah!");
@@ -33,7 +50,5 @@ document.querySelector("button").addEventListener("click", async function(e){
 })
 // checkAkun()  
 
-async  function logout(){ 
-        localStorage.removeItem("users"); 
-        window.location.href = "./index.html"; 
-    }
+
+
