@@ -360,7 +360,7 @@ color: white;
     /* padding-left: 70px; */
     z-index: 1;
     /* border: ridge; */
-    margin-right: -300px;
+    margin-right: -40px;
     padding-right: 110px;
     padding-left: 20px;
 
@@ -403,7 +403,7 @@ color: white;
 }
 
 
-.readmore button{
+.readmore a{
     display: flex;
     flex-wrap: wrap;
     width: 25%;
@@ -430,7 +430,7 @@ color: white;
     margin-top: 0px;
     transform: rotate(90.29deg);
 }
-.readmorepencegahan button{
+.readmorepencegahan a{
     display: flex;
     flex-wrap: wrap;
     width: 25%;
@@ -438,7 +438,7 @@ color: white;
     /* margin-left: 850px; */
     position: absolute;
     margin-left: -1030px;
-    top: 2940px;
+    top: 1110px;
 
     align-items: center;
     justify-content: center;
@@ -458,11 +458,11 @@ color: white;
     transform: rotate(90.29deg);
 }
 
-.readmore button:hover{
+.readmore a:hover{
     background: #057557;
 
 }
-.readmorepencegahan button:hover{
+.readmorepencegahan a:hover{
     background: #057557;
 
 }
