@@ -52,6 +52,16 @@
         z-index: 1;
     
     }
+    .coldampak{
+
+
+
+        margin-left: 20px;
+        padding: 0px;
+        /* padding-left: 70px; */
+        z-index: 1;
+    
+    }
   
    
 
@@ -219,11 +229,16 @@ body {
     
 }
 
-
+.logout{
+    border: ridge;
+}
 
 .navbar-collapse {
     width: 90vw;
 }
+
+
+
 
 
 .formLoRe{
@@ -338,8 +353,30 @@ color: white;
     /* border: ridge; */
 
 }
+.coldampak{
+
+
+
+    margin-left: 0px;
+    padding: 0px;
+    /* padding-left: 70px; */
+    z-index: 1;
+    /* border: ridge; */
+
+}
 
 .colpencegahan1{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    
+    /* border: ridge; */
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.coldampak1{
     display: flex;
     flex-direction: row;
 
@@ -357,16 +394,22 @@ color: white;
     margin: 60px;
 
 }
+.dampak{
+
+    border-radius: 50px;
+    margin: 60px;
+
+}
 
 
-.readmore{
+.readmore button{
     display: flex;
     flex-wrap: wrap;
     width: 25%;
     /* justify-content: end; */
     /* margin-left: 850px; */
     position: absolute;
-    margin-left: -150px;
+    margin-left: -1000px;
     top: 1090px;
 
     align-items: center;
@@ -386,15 +429,15 @@ color: white;
     margin-top: 0px;
     transform: rotate(90.29deg);
 }
-.readmorepencegahan{
+.readmorepencegahan button{
     display: flex;
     flex-wrap: wrap;
     width: 25%;
     /* justify-content: end; */
     /* margin-left: 850px; */
     position: absolute;
-    margin-left: -150px;
-    top: 2320px;
+    margin-left: -1000px;
+    top: 2790px;
 
     align-items: center;
     justify-content: center;
@@ -414,11 +457,11 @@ color: white;
     transform: rotate(90.29deg);
 }
 
-.readmore:hover{
+.readmore button:hover{
     background: #057557;
 
 }
-.readmorepencegahan:hover{
+.readmorepencegahan button:hover{
     background: #057557;
 
 }
