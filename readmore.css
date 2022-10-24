@@ -132,9 +132,10 @@ body{
     min-height: 450px;
     min-width: 350px;
     justify-content: center;
-    margin-left: 1.5rem;
+    margin-left: .5rem;
     margin-right: 1.5rem;
 }
+
 
 @media screen and (max-width: 900px){
     .flip-box-back, .flip-box-front{
@@ -217,7 +218,7 @@ body{
     @media only screen and (max-width: 768px) {
         /* For mobile phones: */
         #gambar-pengendalian{
-            width: 30em;
+            width: 20em;
         }
         #judul2{
             font-size: 30px;
