@@ -51,4 +51,3 @@ document.querySelector("button").addEventListener("click", async function(e){
 // checkAkun()  
 
 
-
