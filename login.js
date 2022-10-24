@@ -33,3 +33,7 @@ document.querySelector("button").addEventListener("click", async function(e){
 })
 // checkAkun()  
 
+async  function logout(){ 
+        localStorage.removeItem("users"); 
+        window.location.href = "./index.html"; 
+    }
