@@ -40,6 +40,8 @@
         color: white;
     } */
 
+    
+
     .colpencegahan{
 
 
@@ -140,7 +142,7 @@ body {
 
 .pohonkita{
    margin: -9px;
-   width: 100vw;
+   width: 99vw;
 }
 .navmenu{
     font-size: 14px;
@@ -162,7 +164,7 @@ body {
 .navmenu1{
     /* transform: scale(20.20); */
    /* border semua menu */
-   border: ridge; 
+   /* border: ridge;  */
     /* left: 100px; */
     margin-top: 10px;
     /* margin-left: -23px;  ini biar mepet saat responsiv */
@@ -191,12 +193,13 @@ body {
 
 }
 
+
 .akun{
 /* padding-left: 100px; */
 
     display: flex;
     justify-content: center;
-    border: ridge;
+    /* border: ridge; */
 }
 .akun a{
     /* margin-left: 100px; */
@@ -206,18 +209,6 @@ body {
     
 }
 
-
-
-/* section{
-    align-content: space-around;
-    color: aqua;
-    border: dotted;
-    margin-left: 180px;
-} */
-
-/* .nav-item{
-    margin-left: 100px;
-} */
 
 .navdd{
     background-color: #FDE3B3;
@@ -233,6 +224,99 @@ body {
 .navbar-collapse {
     width: 90vw;
 }
+
+
+.formLoRe{
+    display: flex;
+    position: absolute;
+    /* border: ridge; */
+    width: 90vw;
+}
+
+.LoRe{
+    margin-top: 10px;
+    height: 124px;
+    width: 100px;
+
+}
+
+.Lo{
+
+    background-color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    width: 160px;
+    left: 20px;
+    height: 100px;
+    position: absolute;
+    margin-left: 43%;
+   
+}
+
+.Lo h6{
+    padding-top: 25px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    color: #08B88A;
+
+    /* border: ridge; */
+}
+
+.Lo button{
+    display: flex;
+    border: 5px solid #FFFFFF;
+    background: #08B88A;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.Re{
+    position: absolute;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    background: #08B88A;
+    left: 110px;
+    padding: 15px;
+    width: 120px;
+    border: ridge;
+    margin-left: 42.5%;
+}
+
+.Re h6{
+    color: white;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    /* border: ridge; */
+padding-right: 24px;}
+
+.Re button{
+       /* display: flex; */
+        border: 5px solid #08B88A;
+    background: white;
+    color: #08B88A;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    margin-top: -10px;
+}
+
+
+.Lo button:hover{
+    background: #057356;
+
+}
+.Re button:hover{
+    background: rgb(209, 209, 209);
+color: white;
+}
+
 
 .bg img{
     width: 100%;
@@ -299,7 +383,7 @@ body {
     border-radius: 60px;
     /* bottom: 100px; */
     /* margin-top: -50px; */
-    margin-top: 50px;
+    margin-top: 0px;
     transform: rotate(90.29deg);
 }
 .readmorepencegahan{
@@ -326,7 +410,7 @@ body {
     border-radius: 60px;
     /* bottom: 100px; */
     /* margin-top: -50px; */
-    margin-top: 50px;
+    margin-top: 0px;
     transform: rotate(90.29deg);
 }
 
