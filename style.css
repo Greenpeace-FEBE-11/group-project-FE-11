@@ -70,17 +70,16 @@
         /* display: flex;
         flex-direction: row;
         flex-wrap: wrap; */
-        width: 100%;
+        width: 400px;
         left: 100px;
         margin-left: -180px;
         /* border: ridge; */
         z-index: -1;
         }
 
-    .nyapu{
-        /* border: ridge; */
-        width: 200px;
-        margin-right: -1000px;
+    .nyapu img{
+        border: ridge;
+        margin-right: -1px;
     }
    
     .us{
@@ -229,9 +228,9 @@ body {
     
 }
 
-.logout{
+/* .logout{
     border: ridge;
-}
+} */
 
 .navbar-collapse {
     width: 90vw;
@@ -345,12 +344,12 @@ color: white;
 .colpencegahan{
 
 
-
-    margin-left: 0px;
-    padding: 0px;
+    margin-left: 40px;
     /* padding-left: 70px; */
     z-index: 1;
     /* border: ridge; */
+    margin-right: -200px;
+    padding-left: 10px;
 
 }
 .coldampak{
@@ -358,10 +357,12 @@ color: white;
 
 
     margin-left: 0px;
-    padding: 0px;
     /* padding-left: 70px; */
     z-index: 1;
     /* border: ridge; */
+    margin-right: -300px;
+    padding-right: 110px;
+    padding-left: 20px;
 
 }
 
@@ -373,8 +374,8 @@ color: white;
     
     /* border: ridge; */
     width: auto;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 .coldampak1{
     display: flex;
@@ -397,7 +398,7 @@ color: white;
 .dampak{
 
     border-radius: 50px;
-    margin: 60px;
+    margin: 34px;
 
 }
 
@@ -436,8 +437,8 @@ color: white;
     /* justify-content: end; */
     /* margin-left: 850px; */
     position: absolute;
-    margin-left: -1000px;
-    top: 2790px;
+    margin-left: -1030px;
+    top: 2940px;
 
     align-items: center;
     justify-content: center;
@@ -468,6 +469,7 @@ color: white;
 
 .konten2{
     margin-top: 100px;
+    margin-right: 1000px;
 }
 
 
@@ -476,7 +478,9 @@ color: white;
 .about{
     display: flex;
     flex-direction: row;
-    padding-right: 0px;
+    padding-right: 2px;
+    padding-left: 4px;
+
     flex-wrap: wrap;
     position: absolute;
     z-index: 2;
@@ -484,9 +488,10 @@ color: white;
     border-radius: 40px;
     background-color: white;
     
-    margin-left: 100px;
-    margin-top: -300px;
-    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 400px;
+    margin-top: -250px;
+    /* margin-bottom: 1000px; */
 
 }
 
@@ -494,13 +499,17 @@ color: white;
     padding-top: 30px;
     text-align: center;
     color: purple;
+    margin-right: -10px;
+    padding-left: 10px;
+
 }
 
 .konten3{
     display: flex;
-    margin-top: 150px;
     justify-content: center;
     align-items: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
 
 }
 
@@ -514,8 +523,9 @@ color: white;
     position: absolute;
     border: ridge;
     border-radius: 40px;
-
-    margin-left: 150px;
+    margin-top: 600px;
+    margin-left: 15px;
+    margin-top: 150px;
   
 }
 
